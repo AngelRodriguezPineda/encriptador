@@ -1,0 +1,285 @@
+/* Etiquetas globales */
+main {
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+body {
+    width: auto;
+    min-height: 100vh;
+    background: linear-gradient(195deg, #ffffff, #e7e7e7);
+}
+
+ footer {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+footer h4{
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: #53657D;
+}
+
+footer h4 a {
+color: #34a0ff;
+text-decoration: none;
+}
+
+footer h4 a>:hover {
+    color: #91ccff;
+    }
+
+footer h4 a:active,
+footer h4 a:visited {
+  color: #55b3d9 /* Cambia el color cuando se presiona o ya ha sido visitado */
+}
+/* header {
+    margin: 5% auto;
+} */
+
+
+/* Header */
+.logo {
+    width: 2%;
+    margin: 1% 5%;
+}
+
+/* section zonas in out */
+.procesador{
+    display: flex;
+}
+
+
+/* Zona zonaInput */
+.zonaInput {
+    width: 70%;
+    
+}
+
+.inputMensaje {
+    background: linear-gradient(275deg, #FCFCFD, #dcdcdf);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #34a0ff;
+    height: 60vh;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    display: grid;
+    padding: 15PX;
+    background: linear-gradient(105deg, #FCFCFD, #EDEDEF);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(231, 231, 231, 0.7);
+}
+.inputMensaje:hover {
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.192),
+        -6px -6px 10px -1px rgba(226, 226, 226, 0.7);
+    border: none;
+    padding: 15PX;
+}
+.inputMensaje:focus {
+    background: linear-gradient(275deg, #ffffff, #f3f3f3);
+    border: none;
+    outline: none;
+    padding: 15PX;
+    
+}
+
+.inputMensaje::placeholder {
+    color: #55B3D9;
+    
+}
+
+/* DIV ALERTA fraccion de la alerta */
+.alerta {
+    display: flex;
+    align-items: center;
+}
+
+.imgInfo {
+    align-items: center;
+    margin: 2.9vh 1vh 0 1vh;
+    width: 12px;
+}
+
+.alerta p {
+    margin: 3vh 5vh 0 0;
+    color: #53657D;
+    font-size: 12px;
+    
+}
+
+ /* BOTONES */
+.button {
+    margin: 2vh 5vh 0 0;
+    width: 40vh;
+    padding: 3.5vh 5vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(105deg, #e7e7e7, #EDEDEF);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 20px -1px rgba(255, 255, 255, 0.945);
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #53657D;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s all;
+    
+}
+
+.button:hover {
+    background: linear-gradient(105deg, #5DD3F5, #50A7F2);
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+
+.button:focus {
+    box-shadow: rgba(197, 204, 211, 0.945) 3px 3px 10px 0px inset, rgba(0, 0, 0, 0.24) -3px -3px 10px 2px inset;
+    
+}
+
+.button:nth-of-type(1) {
+    background: linear-gradient(105deg, #5DD3F5, #50A7F2);
+    color: #ffffff;
+}
+
+.button:nth-of-type(1):hover {
+    background: linear-gradient(190deg, #88e5ff, #34a0ff);
+    color: #fafafa;
+    font-weight: bold;
+    transition: 1s all;
+}   
+/* Zona zonaInput */
+
+.zonaOutput {
+    width: 28%;
+    background: linear-gradient(105deg, #FCFCFD, #ececec);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(0, 0, 0, 0.15);
+    color: #525252;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    min-height: auto;
+    border-radius: 15px;
+    margin-left: 10vh;
+    padding: 2%;
+
+}
+#cifrado {
+    height: 70%;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#copiarTexto {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#copiarTexto p {
+    color: #169b21ff;
+    font-weight: bold;
+}
+
+.buttonCopiar {
+    margin: 2vh 0vh 0 0;
+    width: 90%;
+    padding: 3.5vh 5vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(105deg, #5DD3F5, #50A7F2);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 20px -1px rgba(255, 255, 255, 0.945);
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s all;
+    
+}
+
+.buttonCopiar:hover {
+    background: linear-gradient(105deg, #5DD3F5, #50A7F2);
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+
+
+@media screen and (max-width:950px){ 
+.zonaInput{
+    width: 60%;
+}
+
+.zonaOutput{
+    width: 40%;
+
+}
+
+}
+
+@media screen and (max-width:600px){ 
+
+body {
+    width: auto;
+}
+
+/* Header */
+.logo {
+    width: 1.5rem;
+    margin: 1% 5%;
+}
+
+/* section zonas in out */
+.procesador{
+    display: block;}
+
+.zonaInput {
+    width: 90%;
+    margin-left: 0;
+}
+
+.zonaOutput {
+    height: auto;
+    width: 90%;
+    margin-left: 0;
+    margin: 5% 0 0 0;
+    padding: 5%;
+}
+
+.button {
+    width: 100%;
+    margin: 5% 0 0 5%;
+}
+
+.zonaOutput p {
+    margin: 3vh 5vh 0 0;
+}
+
+}

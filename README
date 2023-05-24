@@ -1,0 +1,18 @@
+El encriptador implementado es una función de JavaScript que permite encriptar y desencriptar texto utilizando un algoritmo simple basado en reglas de reemplazo. Está diseñado para trabajar con texto en minúsculas sin acentos ni caracteres especiales.
+
+La funcionalidad principal del encriptador es tomar un texto ingresado por el usuario y aplicar una serie de reemplazos a las letras específicas según un conjunto de reglas. Estas reglas determinan cómo se transforman las letras originales en versiones encriptadas y viceversa.
+
+El algoritmo de encriptación sigue las siguientes reglas:
+
+La letra "e" es reemplazada por "enter".
+La letra "i" es reemplazada por "imes".
+La letra "a" es reemplazada por "ai".
+La letra "o" es reemplazada por "ober".
+La letra "u" es reemplazada por "ufat".
+Estas reglas se aplican a cada letra individualmente en el texto ingresado, y el resultado es el texto encriptado correspondiente.
+
+Además, el encriptador proporciona la funcionalidad de desencriptar el texto encriptado, lo que implica revertir los reemplazos utilizando reglas inversas. De esta manera, es posible recuperar el texto original a partir del texto encriptado.
+
+El encriptador se ha implementado utilizando JavaScript y se integra con elementos HTML, como un <textarea> para ingresar y mostrar el texto, y botones para realizar la encriptación y desencriptación. Los resultados encriptados o desencriptados se muestran en un <div> específico.
+
+Es importante tener en cuenta que este encriptador es un ejemplo básico con fines educativos y no se recomienda para aplicaciones de seguridad o encriptación real, ya que el algoritmo es simple y fácilmente reversible.

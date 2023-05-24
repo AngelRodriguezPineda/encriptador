@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Imagenes/Logo2x.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="codigo.js"></script>
+    <title>Enciptador Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.svg" alt="Logo de Alura">
+    </header>
+
+    <main>
+    <section class="procesador">
+<!-- Parte del codigo donde se procesan bototes y cuadro de texto   -->
+    <div class="zonaInput">
+        
+        <textarea placeholder="Escribe aquí tu texto" cols="auto" rows="auto" id="mensaje"  class="inputMensaje" required></textarea>
+        
+        <div class="alerta">
+
+        <img class="imgInfo" src="imagenes/Alerta.svg" alt="Imagen de Alerta">
+        <p>Solo letras minúsculas y sin tilde (Signo del acento)</p>
+
+        </div>
+
+        <button class="button" onclick="encriptarTexto()">Encriptar</button>
+        <button class="button" onclick="desencriptarTexto()">Ver mensaje</button>
+    </div>
+
+<!-- Zona de la entrega de texto Enciptado/desencriptado -->
+    
+    <div class="zonaOutput">
+        <div id="cifrado">
+        </div>
+    
+        <div id="copiarTexto">
+        <p id="mensajeCopiado"></p>
+        <button class="buttonCopiar" onclick="copiarTexto()">Copiar texto</button>
+        </div>
+    </div>
+  
+
+
+    </section>
+    </main>
+    <footer>
+        <h4>Made with <span style="color: #ff0000;">❤</span> by <a href="https://www.linkedin.com/in/soyangel/">Angel Rodriguez Pineda</a></h4>
+    </footer>
+</body>
+</html>
