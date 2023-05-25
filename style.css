@@ -184,6 +184,10 @@ footer h4 a:visited {
 
 }
 #cifrado {
+    
+}
+
+#mostrarTextoCifrado {
     height: 70%;
     overflow-wrap: break-word;
     white-space: pre-wrap;
@@ -197,9 +201,21 @@ footer h4 a:visited {
     align-items: center;
 }
 
-#copiarTexto p {
+#muneco {
+    width: 100%;
+}
+
+.textoNegritas{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mensajeCopiado {
+    margin-top: 15px;
     color: #169b21ff;
     font-weight: bold;
+    visibility: hidden;
 }
 
 .buttonCopiar {
